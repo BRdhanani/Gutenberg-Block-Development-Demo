@@ -11,7 +11,7 @@ To create package.json file, first of all move to your theme's root directory an
 ```
 npm init
 ```
-After running above command it will prompt some question. Answer all the questions and that's it . You have successfully generated your packge.json file. You can see it inside your theme;s root directory.
+After running above command it will prompt some question. Answer all the questions and that's it . You have successfully generated your packge.json file. You can see it inside your theme's root directory.
 
 ## Install NPM
  Move to your theme's root direcoty and run following command. 
