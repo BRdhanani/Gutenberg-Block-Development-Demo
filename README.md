@@ -1,6 +1,6 @@
 # Gutenberg Block Development Demo
 
-This code helps you in the development of custom gutenberg blocks from scratch. I am using ES6 and JSX in my code so you need to install npm. If you are using ES5 then you don't need to install npm. I am prefering ES6 concept because it is simple as compare to ES5 and it gives you freedom to write both javascript and html code at the same time using the concept of JSX. If you want create gutenberg block using ES6 then simply follow below steps for creating your first beautiful gutenberg block.
+This code helps you in the development of custom gutenberg blocks from scratch. I am using ES6 and JSX in my code so you need to install npm. If you are using ES5 then you don't need to install npm. I am preferring ES6 concept because it is simple as compare to ES5 and it gives you the freedom to write both javascript and html code at the same time using the concept of JSX. If you want to create a gutenberg block using ES6 then simply follow below steps for creating your first beautiful gutenberg block.
 
 If you are using any default theme of wordpress like twentynineteen then there will be one file named package.json but if you are using any custom theme then you need to generate package.json first. 
 
@@ -11,10 +11,10 @@ To create package.json file, first of all move to your theme's root directory an
 ```
 npm init
 ```
-After running above command it will prompt some question. Answer all the questions and that's it . You have successfully generated your packge.json file. You can see it inside your theme's root directory.
+After running above command it will prompt some questions. Answer all the questions and that's it . You have successfully generated your packge.json file. You can see it inside your theme's root directory.
 
 ## Install NPM
- Move to your theme's root direcoty and run following command. 
+ Move to your theme's root directory and run following command. 
 ```
 npm install
 ```
@@ -40,7 +40,7 @@ Now, our real work starts. Create following files
 - index.js
 
 **index.php**
-You can create this file wnywhere you want and include it in your theme's functions.php file. In index.php file you need to create one function in which you need to register your script first using ``` wp_register_script ``` function and add one another function named ``` register_block_type ``` which contains your namespace as a first parameter and array of scripts as a second parameter.
+You can create this file anywhere you want and include it in your theme's functions.php file. In index.php file you need to create one function in which you need to register your script first using ``` wp_register_script ``` function and add one another function named ``` register_block_type ``` which contains your namespace as a first parameter and array of scripts as a second parameter.
 
 **index.js**
 In js file you can write code for all the custom blocks you want to add inside default function named registerBlockType. you also need to import some packges from wordpress before you start writing any codes.
